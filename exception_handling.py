@@ -8,8 +8,6 @@ except ValueError:
     print('\n', "Ошибка: Некорректный ввод числа")
 except ZeroDivisionError:
     print('\n', "Ошибка: Попытка деления на ноль")
-# except:
-#     print("Непредвиденная ошибка")
 else:
     print('\n', f"Выражение {number_one} / {number_two} = {result}")
 finally:
